@@ -2,7 +2,7 @@
 
 HOST=${1:-'dominio'}
 #parametros opcionales
-PROYECT=${2:-'https://gitlab.torresoftware.com/TorreSoftware/facturadorpro2-2025.git'}
+PROYECT=${2:-'https://github.com/ferrosero91/facturador2025-2.git'}
 SERVICE_NUMBER=${3:-'1'}
 PATH_INSTALL=$(echo $HOME)
 DIR=$(echo $PROYECT | rev | cut -d'/' -f1 | rev | cut -d '.' -f1)$SERVICE_NUMBER
